@@ -1,2 +1,2 @@
-# sap-pi-2
+# SAP PI Quiz 2
 Zweiter Quiz zu SAP PI
