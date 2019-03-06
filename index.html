@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PI Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Willkommen zum zweiten PI-Test</h1>
+        <form id="pi-test-form">
+            <div class="questions" id="question-1">
+                <p class="question-text">Wofür steht PO?</p>
+                <label for="q1a">
+                    <input type="radio" id="q1a" value="q1a" name="0">
+                    Process Orchestration
+                </label>
+                <label for="q1b">
+                    <input type="radio" id="q1b" value="q1b" name="0">
+                    Prozessintegration Online
+                </label>
+                <label for="q1c">
+                    <input type="radio" id="q1c" value="q1c" name="0">
+                    Performance Optimization for SAP
+                </label>
+                <p class="answers" id="a1"></p>
+            </div>
+
+            <div class="questions" id="question-2">
+                <p class="question-text">Was beinhaltet PO hauptsächlich?</p>
+                <label for="q2a">
+                    <input type="radio" id="q2a" value="q2a" name="1">
+                    Performance-Tools wie ein Monitoring-Dashboard und Datenaustauschprogramme
+                </label>
+                <label for="q2b">
+                    <input type="radio" id="q2b" value="q2b" name="1">
+                    Einen Metalldetektor, eine Schublade und SOAP
+                </label>
+                <label for="q2c">
+                    <input type="radio" id="q2c" value="q2c" name="1">
+                    SAP PI, BRM und BPM
+                </label>
+                <p class="answers" id="a2"></p>
+            </div>
+
+            <div class="questions" id="question-3">
+                <p class="question-text">Im SAP NetWeaver, welche Rolle spielt SAP PI/PO?</p>
+                <label for="q3a">
+                    <input type="radio" id="q3a" value="q3a" name="2">
+                    SAP NetWeaver hat nur SAP PI und SAP PO
+                </label>
+                <label for="q3b">
+                    <input type="radio" id="q3b" value="q3b" name="2">
+                    Damit werden alle Prozesse integriert
+                </label>
+                <label for="q3c">
+                    <input type="radio" id="q3c" value="q3c" name="2">
+                    SAP NetWeaver ist ein Teil von SAP PO
+                </label>
+                <p class="answers" id="a3"></p>
+            </div>
+
+            <div class="questions" id="question-4">
+                <p class="question-text">Auf welchem Stack basiert die aktuelle Ausgabe von SAP PI/PO?</p>
+                <label for="q4a">
+                    <input type="radio" id="q4a" value="q4a" name="3">
+                    Java
+                </label>
+                <label for="q4b">
+                    <input type="radio" id="q4b" value="q4b" name="3">
+                    JavaScript
+                </label>
+                <label for="q4c">
+                    <input type="radio" id="q4c" value="q4c" name="3">
+                    SAP
+                </label>
+                <p class="answers" id="a4"></p>
+            </div>
+
+            <div class="questions" id="question-5">
+                <p class="question-text">Aus welchen Komponenten besteht SAP PI?</p>
+                <label for="q5a">
+                    <input type="radio" id="q5a" value="q5a" name="4">
+                    System Landscape Directory, Integration Builder, Integration Plug-Ins und Monitoring (& Alerting)
+                </label>
+                <label for="q5b">
+                    <input type="radio" id="q5b" value="q5b" name="4">
+                    System Landscape Directory, Integration Built-In, Integration Server und Monitoring (& Alerting)
+                </label>
+                <label for="q5c">
+                    <input type="radio" id="q5c" value="q5c" name="4">
+                    System Landscape Directory, Integration Builder, Integration Server und Monitoring (& Alerting)
+                </label>
+                <p class="answers" id="a5"></p>
+            </div>
+
+            <div class="questions" id="question-6">
+                <p class="question-text">Was ist die Rolle von SLD (System Landscape Directory)?</p>
+                <label for="q6a">
+                    <input type="radio" id="q6a" value="q6a" name="5">
+                    SLD ist ein Ordner von PI-Landschaften; man kann dann je nach Situation eine PI-Landschaft auswählen
+                </label>
+                <label for="q6b">
+                    <input type="radio" id="q6b" value="q6b" name="5">
+                    Dort beschreibt man die technische Landschaft; das heißt unter anderem, die Systeme, die man anbindet
+                </label>
+                <label for="q6c">
+                    <input type="radio" id="q6c" value="q6c" name="5">
+                    Mit SLD definiert man, wie die SOAP-Nachrichten ans Zielsystem kommen
+                </label>
+                <p class="answers" id="a6"></p>
+            </div>
+
+            <div class="questions" id="question-7">
+                <p class="question-text">Warum sagt man, dass SAP PI/PO als eine Schnittstelle fungiert?</p>
+                <label for="q7a">
+                    <input type="radio" id="q7a" value="q7a" name="6">
+                    Weil SAP PI/PO oft bei der Planung von Straßen und Autobahnen verwendet wird
+                </label>
+                <label for="q7b">
+                    <input type="radio" id="q7b" value="q7b" name="6">
+                    Mit SAP PI/PO werden SAP- und Non-SAP-Systeme miteinander verbunden. Alle Systeme gehen dann durch SAP PI/PO
+                </label>
+                <label for="q7c">
+                    <input type="radio" id="q7c" value="q7c" name="6">
+                    Weil SAP PI/PO mit anderen Systemen überschneidet, deswegen "Schnitt"-Stelle
+                </label>
+                <p class="answers" id="a7"></p>
+            </div>
+
+            <div class="questions" id="question-8">
+                <p class="question-text">Welche Rolle spielt das Monitoring?</p>
+                <label for="q8a">
+                    <input type="radio" id="q8a" value="q8a" name="7">
+                    Durch das Monitoring überwacht man die Prozesse eines Unternehmens
+                </label>
+                <label for="q8b">
+                    <input type="radio" id="q8b" value="q8b" name="7">
+                    Mithilfe des Monitorings werden alle Menschen auf der Erde von Regierungen überwacht
+                </label>
+                <label for="q8c">
+                    <input type="radio" id="q8c" value="q8c" name="7">
+                    Mit dem Monitoring kann man beobachten und überwachen, ob alles bei der Integration richtig läuft
+                </label>
+                <p class="answers" id="a8"></p>
+            </div>
+            <div class="buttons">
+                <input id="submit-btn" type="submit" value="Senden"/>
+                <button id="clear-btn">Löschen</button>
+            </div>
+        </form>
+        <p id="correct-count"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
